@@ -1,0 +1,331 @@
+@media  screen and (max-width: 600px)
+ {
+   
+    .xsm20
+    {
+     width: 20%;
+    }
+    .xsm25
+    {
+     width: 25%;
+    }
+    .xsm33
+    {
+     width:33.33%;
+    }
+    .xsm50
+    {
+     width: 50%;
+    }
+   .xsm100
+   {
+   width: 100%;
+   }
+ }
+
+ @media  screen and (min-width: 600px)
+ {
+    .sm20
+    {
+     width: 20%;
+    }
+    .sm25
+    {
+     width: 25%;
+    }
+    .sm33
+    {
+     width:33.32%;
+    }
+    .sm50
+    {
+     width: 50%;
+    }
+   .sm100
+   {
+    width: 100%;
+   }
+ }
+
+ @media  screen and (min-width: 780px)
+ {  
+   *
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+   div.header{
+     background-color:white ;
+     position: fixed;
+     top: 0;
+    
+   } 
+   div.contain 
+   {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 80%;
+      margin-inline: auto;
+   }
+   div.navbar ul
+   {
+     display: flex;
+     justify-content: center;
+     
+   }
+   div.contain i
+   {
+      position: relative;
+      top:30px;
+     left: 100%;
+   }
+   div.navbar a
+   {
+       
+       font-size: large;
+   }
+  
+    div.navbar li
+    {
+      color: gray;
+      list-style: none;
+      transition: all 1s;
+      position: relative;
+    }
+
+div.navbar li::after{
+content: attr(border-bottom);
+position: absolute;
+bottom: -5px;
+right: 0;
+border-bottom: 4px solid rgb(153, 3, 3);
+width: 100%;  
+width: 0; 
+transition: all 1s; 
+}
+
+div.navbar li:hover
+{
+   color: black;
+}
+
+div.navbar li:hover::after
+{
+   width: 100%;
+}
+
+div.home
+{
+   height: 100vh;
+}
+div.plate img
+ {
+   width: 500px;
+ }
+div.plate{
+  float: right;
+  padding: 50px;
+}
+
+div.content
+{
+   float: left;
+   padding: 80px;
+  position: absolute;
+  top: 90px;
+   
+}
+div.butt 
+{
+   display: flex;
+   
+}
+div.button
+{
+   flex-direction: column;
+  
+}
+div.button a
+{
+   border-radius: 100vh;
+}
+div.text
+{
+   width: 50%;
+   margin: auto;
+   text-align: center;
+}
+div.text P
+{
+   text-align: center;
+}
+
+
+div.con 
+{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   width: calc(80% - 40px);
+   
+}
+
+  
+
+
+div.column 
+{   
+   height: 72.8125rem;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+ div.part1,div.part2,div.part3
+ {
+   width: calc(33.333% - 20px );
+ }
+
+
+
+
+div.container4 
+{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   gap: 20px;
+}
+div.form form
+{
+  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   gap: 20px;
+}
+
+div.our-address,div.email,div.calls,div.hours
+{
+   width: calc(50% - 40px);
+   
+}
+
+div.name,div.email1
+{
+   width: calc(50% - 40px);
+}
+
+
+div.footer 
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   gap: 20px;
+
+}
+div.touch,div.first
+{
+   width: calc(25% - 40px);
+}
+div.second 
+{
+   width: calc(50% - 40px);
+}
+
+div.news-letter button 
+{
+   
+    padding: 10px;
+    max-width: 100px;
+    border: none;
+    text-align: center;
+}
+div.side 
+{
+   display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  
+
+}
+
+
+
+
+
+    .md20
+   {
+    width: 20%;
+   }
+   .md25
+   {
+    width: 25%;
+   }
+   .md33
+   {
+    width: 33.3%;
+   }
+   .md50
+   {
+    width: 50%;
+   }
+   .md100
+   {
+    width: 100%;
+   }
+ }
+ @media  screen and (min-width: 992px)
+ {
+    .lg20
+   {
+    width: 20%;
+   }
+   .lg25
+   {
+    width: 25%;
+   }
+   .lg33
+   {
+    width: 33.3%;
+   }
+   .lg50
+   {
+    width: 50%;
+   }
+   .lg100
+   {
+    width: 100%;
+   }
+ }
+
+ @media  screen and (min-width: 1200px)
+ {
+    .xlg20
+   {
+    width: 20%;
+   }
+   .xlg25
+   {
+    width: 25%;
+   }
+   .xlg33
+   {
+    width: 33.3%;
+   }
+   .xlg50
+   {
+    width: 50%;
+   }
+   .xlg100
+   {
+    width: 100%;
+   }
+ }

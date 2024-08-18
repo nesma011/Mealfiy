@@ -1,0 +1,733 @@
+
+*
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+/* section header*/
+div.logo
+{
+   position: relative;
+   top: 30px;
+}
+div.logo a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+
+div.logo a::after
+{
+    content:' ';
+    color: red;
+}
+
+
+div.header
+{
+    background-color:rgba(255, 255, 255, 0.075) ;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+ 
+}
+
+div.navbar ul
+{
+    list-style: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   display: none;
+}
+
+div.navbar a
+{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    padding: 10px;
+    
+   
+}
+div.navbar
+{ 
+    width: 100%;
+    color: rgb(71, 71, 71);
+    font-weight: 400; font-size: x-large; 
+    margin: 20px;
+   
+}
+
+div.header i
+{
+    
+    font-size: xx-large;
+    position: relative;
+    top: -10px;
+    left: 300px;
+
+    
+}
+
+
+/* section home*/
+
+div.home
+{
+    height: 150vh;
+    background-color: rgb(236, 234, 234);
+    position: relative;
+    top: 100px;
+    width: 100%;
+ 
+
+   
+}
+div.plate
+{
+    margin-block: 50px;
+    
+}
+div.plate img
+{
+    
+   width: 100%;
+   transition: transform 0.3s ease-in-out;
+  filter: drop-shadow(4px 4px 9px #000a);
+}
+div.plate img:hover
+{
+    transform: translate(-1px, 2px) rotate(-1deg);
+}
+
+
+div.content h2{
+    color: rgb(55, 55, 63);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+div.content p
+{
+    margin-block: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #4f4f5a;
+    text-align: center;
+}
+div.button a
+{
+    background-color: rgb(190, 4, 4);
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100vh;
+    margin: 10px;
+}
+div.button , div.buttons
+{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+div.buttons a.b
+{
+    background-color: white;
+    padding: 20px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    border: red 10px;
+    border-radius: 50%;
+    background-image: linear-gradient( red 0% 50%,transparent 50% 100%);
+
+}
+
+div.buttons a.c
+{
+    text-decoration: none;
+    color: #4f4f5a;
+
+}
+div.buttons i 
+{
+    color: black;
+    size: 20px;
+}
+div.buttons i:hover
+{
+    color: rgb(173, 4, 4);
+}
+div.buttons a:hover
+{
+    color: rgb(173, 4, 4);
+}
+
+/* section chefs*/
+div.text
+{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top:200px;
+    bottom: 100px;
+    margin: 10px;
+}
+div.con
+{
+    width: 80%;
+   margin: auto;
+}
+
+div.text h1
+{
+    color: rgb(55, 55, 63);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 50px;
+}
+
+div.text span{
+
+    color: rgb(131, 4, 4);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 65px;
+}
+
+div.chefs
+{
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+
+div.chefs h2
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter",sans-serif;
+    margin-block: 15px;
+}
+
+div.chefs h4
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: 
+    "Open Sans", system-ui;
+    color: rgb(127, 127, 144);
+}
+
+div.chefs p
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 
+    "Open Sans", system-ui;
+    color: rgb(127, 127, 144);
+    margin-block: 15px;
+}
+div.chefs img
+{
+    width:100% ;
+    position: relative;
+    filter: drop-shadow(4px 9px 9px gray);
+
+  
+}
+
+
+div.photo li{
+   
+    list-style: none;
+    padding: 10px;
+}
+
+div.photo i
+{
+  color: rgb(68, 67, 67);
+
+  
+
+}
+div.photo i:hover{
+    color: black;
+}
+
+div.photo a
+{
+    text-decoration: none;
+}
+
+div.chef
+{
+ transition: all 0.5s ;
+ margin-block: 40px;
+ padding: 20px;
+
+}
+div.photo
+{
+    background-color: rgb(239, 245, 248);
+    
+}
+
+div.chef:hover
+{
+    transform: scale(1.1);
+}
+div.photo ul
+{
+    background-color: #dfdfdfa1;
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    list-style: none;
+    opacity: 0;
+    transition: all 0.5s ;
+
+}
+div.chef:hover ul
+{
+  opacity: 1;
+  right: 30px;
+}
+
+
+/*section gallery*/
+div.gallery
+
+{
+    width: 100%;
+    background-color: rgb(226, 228, 228);
+}
+div.containerr
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 400px;
+    padding: 40px 0;
+    
+  
+}
+
+
+div.containerr p
+{
+    margin-block: 30px;
+    font-size: 16px;
+    color: #4f4f5a;
+    text-align: center;
+    
+}
+
+div.containerr span
+{
+    color: rgb(155, 4, 4);
+}
+div.containerr h4
+{
+    color: rgb(10, 10, 10);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100px;
+    margin-block: 20px;
+    
+}
+div.img img
+{
+    
+    width: 100%;
+     height: 100%;
+     transition :all 0.5s;
+}
+div.img
+{
+    position: relative;
+    width: 100%;
+    border: 5px white solid;
+    overflow: hidden;
+   
+    
+}
+div.layeeer
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div.img:hover div.layeeer
+{
+    top: 0;
+    opacity:1;
+}
+div.img:hover img
+{
+    transform: scale(1.1);
+}
+
+div.layeeer h1, div.layeeer p
+{
+    color: white;
+    text-align: center;
+
+}
+
+
+
+/*section contact*/
+
+
+div.title-contact h5
+{
+    color: rgb(55, 55, 63);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+div.title-contact p
+{
+    color: rgb(55, 55, 63);
+    text-align: center;
+}
+div.title-contact span
+{
+    color: rgb(131, 4, 4);
+    font-family:"Amatic SC", sans-serif;
+    font-size: 45px;
+}
+
+div.map
+{
+    width: 90%;
+    margin: auto;
+}
+
+div.map iframe
+{
+   
+    width: 100%;
+    height: 21.875rem;
+    
+}
+div.details-contact
+{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    
+}
+div.our-address,div.email,div.calls,div.hours
+{
+    background-color: #f1f1f1;
+    margin-block: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.details-contact i
+{
+    font-size:large;
+    color: white;
+    background-color: rgb(143, 2, 2);
+    border: 25px solid  rgb(143, 2, 2);
+    border-radius: 50%;
+}
+ 
+div.details-contact h2
+{
+    color: rgb(117, 117, 117);
+}
+div.text-icon p
+{
+    color: black;
+}
+div.text-icon span
+{
+    font-weight: bold;
+}
+div.text-icon
+{
+    padding-inline: 10px;
+}
+
+div.form
+{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+div.form form
+{
+    width: 80%;
+    margin: auto;
+}
+
+input[name=name] {
+  width: 100%;
+  padding: 20px ;
+  margin: 15px;
+  border: #d1d0d0 1px solid;
+
+  
+}
+
+input[name=email1] {
+  width: 100%;
+  padding:  20px;
+  margin: 15px;
+  
+  border: #d1d0d0 1px solid;
+  border-radius: 5px;
+}
+input[name=subject] {
+  width: 100%;
+  padding:  20px;
+  margin: 15px;
+  border: #d8d7d7 1px solid;
+  border-radius: 5px;
+}
+
+textarea[name=text]
+{
+  width: 100%;
+  padding: 30px 40px;
+  margin: 15px;
+  border: #d6d3d3 1px solid;
+  border-radius: 5px;
+}
+div.form button
+{
+  background-color: rgb(194, 2, 2);
+  border: 2px solid rgb(194, 2, 2);
+  border-radius: 40px;
+  color: white;
+  width: 200px;
+  padding: 10px 30px;
+  
+
+  
+}
+
+
+button:hover
+{
+  background-color: rgb(134, 3, 3);
+}
+
+/* section footer*/
+
+
+footer
+{
+    background-image: url(../images/textured-metal-background.jpg);
+    width: 100%;
+    height: auto;
+    
+}
+div.footer
+{
+    width: 90%;
+    margin: auto;
+
+    padding-block: 30px;
+
+
+}
+div.mealify img
+{
+    width: 40px;
+    height: 40px;
+}
+div.mealify h2
+{
+    color: white;
+    font-size: xx-large;
+}
+div.mealify p
+{
+    color: white;
+}
+
+div.mealify span
+{
+    color: red;
+}
+div.innerr
+{
+    display: flex;
+    gap: 10px;
+}
+
+
+div.social
+{
+    margin: 10px;
+}
+
+
+
+div.social h1
+{
+text-align: center;
+color: white;
+font-size: 24px;
+
+}
+
+
+
+div.social hr
+{
+    color: gray;
+}
+
+div.social a
+{
+    text-decoration: none;
+    
+}
+div.social i
+{
+    color: white;
+    font-size:x-large;
+}
+
+div.social ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 20px;
+}
+
+div.news-letter h3,p
+{
+    color: white;
+    padding: 10px;
+}
+input[name=email2]
+{
+    width: 100%;
+    padding: 10px;
+}
+div.news-letter button
+{
+    width: 100%;
+    background-color: rgb(156, 2, 2);
+    color: white;
+    padding: 10px;
+}
+div.news-letter button i
+{
+    color: white;
+
+}
+
+div.quick-links
+{
+    margin-block:20px;
+}
+
+div.quick-links h5
+{
+    color: white;
+    font-size: x-large;
+}
+div.quick-links ul
+{
+   
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+div.quick-links ul li::before
+{
+    content: '>';
+    margin-right: 5px;
+    color: white;
+    font-size: large;
+}
+div.quick-links a
+{
+    text-decoration: none;
+    color: white;
+
+}
+div.quick-links li
+{
+    width: calc(50% - 20px) ;
+    padding: 5px;
+    font-size: 20px;
+    transition :all 0.5s;
+    
+}
+
+div.quick-links li:hover
+{
+    transform: translateX(10px);
+    background-color: #5e5c5c;
+}
+div.touch h6
+{
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+div.touch p
+{
+    color: white;
+    font-size: 16px;
+}
+
+div.touch a
+{
+    text-decoration: none;
+    color: rgb(165, 5, 5);
+}
+div.touch i
+{
+    font-size: x-large;
+}
+
+
+div.location,div.mess,div.telephone
+{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
